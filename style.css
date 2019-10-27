@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i,800&display=swap');
+
+* {
+    font-family: "Poppins";
+    box-sizing: border-box;
+    margin:0;
+}
+@media only screen and (max-width: 768px){
+    .flex{
+        flex-direction: column;
+    }
+}
+/*Typography*/
+
+h1, h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    margin-top:2.5rem;
+}
+
+h2, h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+li{
+    display:inline;
+    list-style: none;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+a:active{
+    text-decoration: none;
+    color:rgb(32, 32, 32);
+}
+/*layout*/
+.flex{
+    display:flex;
+}
+
+header {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#header-img{
+    height: 100%;
+}
+
+#hero{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://i.ibb.co/Jrtsj6T/background-hero.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    margin-top: 10vh;
+}
+
+#video{
+    margin: 2rem auto;
+}
+
+#info{
+    max-width: 60%;
+    margin:2.5rem auto;
+
+}
+/*image sizing*/
+#header-img img{
+    max-height: 100%;
+}
+
+#subscribe{
+    min-height: 35vh;
+    background-color: black;
+    color:white;
+    padding: 2.5rem;
+    margin-top:-1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#subscribe p{
+    max-width: 60%;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    display: block;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: #01A2C5;
+    color: white;
+    border:none;
+    margin: 2.5rem auto; 
+    display: block;
+}
+.caractetistica{
+    height: 50vw;
+}
+
+.car-img{
+    width: 50%;
+    margin: 1.5rem;
+}
+
+.car-text{
+    width: 50%;
+    margin: 1.5rem;
+}
+
+.first{
+    background-image: url('https://i.ibb.co/cbLgpRz/ozant-web.jpg');
+    background-size: cover;
+}
+
+.second{
+    background-image: url('https://i.ibb.co/bWjQXJY/sketch-web.jpg');
+    background-size: cover;
+}
+ .third{
+    background-image: url('https://i.ibb.co/XYKwtyF/sven-web.jpg');
+    background-size: cover;
+    
+ }
